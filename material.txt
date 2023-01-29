@@ -1,0 +1,19 @@
+kbd-->The <kbd> tag is used to define keyboard input. 
+      The content inside is displayed in the browser's default monospace font.
+      -->we can apply css to change the style
+data-  >use to store custom data
+data-name=""-->value should be string
+value=getAttribute("data-name");
+-->data-key="65"--><kbd>A</kbd>-->Here 65 unicode of A
+
+--->IMPORTANT--->
+    (keycode.info)-->search-->to get keycode for js
+
+-->Here we have to apply event -->keypress--> addEventListener<----
+window.addEventListener("keydown",((event)=>{
+    console.log(event);
+}));
+-->type:keydown
+-->event-->object
+   consist of all property about that event->addEventListener
+   keycode:given
